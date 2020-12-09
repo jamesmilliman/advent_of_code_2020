@@ -31,8 +31,8 @@ def is_valid2(min, max, char, password):
     a = b = False
 
     try:
-        a = (password[min - 1] == char)
-        b = (password[max - 1] == char)
+        a = password[min - 1] == char
+        b = password[max - 1] == char
     except IndexError:
         pass
 

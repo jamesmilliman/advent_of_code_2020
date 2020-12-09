@@ -1,6 +1,4 @@
-
 def parse_bin(str):
-
     def bin_str_to_num(str):
         ret = 0
 
@@ -32,7 +30,6 @@ if __name__ == "__main__":
         lines = list(map(lambda x: x.strip(), f.readlines()))
         data = list(map(parse_bin, lines))
 
-
     seat_ids = list(map(lambda x: calc_seat_id(*x), data))
 
     # p1
@@ -41,4 +38,3 @@ if __name__ == "__main__":
     # p2
     seat_ids.sort()
     print(find_missing_seat(seat_ids))
-
