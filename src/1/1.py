@@ -12,7 +12,6 @@ def part1(lines, target):
 
 
 def part2(lines, target):
-
     lines.sort()
 
     for i in range(len(lines)):
