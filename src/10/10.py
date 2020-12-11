@@ -62,4 +62,4 @@ if __name__ == "__main__":
     print(jds[0] * jds[2])
 
     # p2
-    print(num_combinations([1, 2, 3]))
+    print(num_combinations(nums))
